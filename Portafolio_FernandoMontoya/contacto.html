@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="contenedorHeader">
+        <div class="contenedor_logo">
+            <a class="logo-contenido" href="./index.html">
+                <p class="logo-titulo">Frontend <span class="logo-subtitulo">creativo</span></p>
+            </a>
+        </div>
+    </header>
+    <main class="contenidoPrincipal">
+        <section class="textContacto">
+            <div class="contenedorContactoTitle">
+                <p class="contactoTitle">Contacto</p>
+                <img class="contacto_icon" src="./img/charla.png" alt="">
+            </div>
+            <p class="contactoTexto">Complete el siguiente formulario y me pondre en contacto contigo a la brevedad.</p>
+        </section>
+        <form class="formularioContacto">
+            <input class="cuestion preguntaNombre" type="text" placeholder="Escribe tu nombre" required>
+            <input class="cuestion preguntaTelefono" type="text"  placeholder="Telefono / Celular" required>
+            <input class="cuestion preguntaCorreo" type="text" placeholder="Escribe tu Gmail: ejemplo@gmail.com" required>
+            <textarea class="cuestionMensaje preguntaMensaje" cols="30" rows="7" placeholder="Escribe aqui tu mensaje para una respuesta mas precisa" required></textarea>
+            <span class="contenedorError">
+                
+            </span>
+            <button class="cuestionSubmit display" type="button">
+                <p class="enviandoTexto">Enviar</p>
+            </button>
+            <div class="contenedorEnviando">
+                
+            </div>
+        </form>
+    </main>
+    <div class="enviando">
+        
+    </div>
+    
+    <footer class="contenedorFooter">
+        <p><span>Desarrollador: </span>Luis Fernando Montoya Garcia</p>
+        <p><span>Correo de contacto: </span>montoyafernando1506@gmail.com</p>
+        <p><span>Ubicacion actual: </span>Mexico, DF.</p>
+    </footer>
+    <script src="./JS/app.js"></script>
+</body>
+</html>
